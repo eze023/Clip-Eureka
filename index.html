@@ -13,9 +13,9 @@
     <!--Fin CSS-->
 </head>
 
-<body class="background-main mh-100 flex-wrap">
+<body class="background-main">
     <!--Inicio Nav-->
-    <nav class="navbar navbar-expand-md navbar-dark d-flex justify-content-around align-items-center">
+    <nav class="navbar d-flex justify-content-sm-between align-items-center">
         <div class="d-flex">
             <img src="images/logo.png" alt="logo_?" class="img-fluid">
             <a href="index.html" class="text-decoration-none text-lg-center text-white">
@@ -28,17 +28,17 @@
             </a>
             <img src="images/logo1.png" alt="logo1_?" class="img-fluid">
         </div>
-        <div class="">
-            <a href="#" class="text-decoration-none">
+        <div class="d-flex">
+            <a href="#" class="text-decoration-none p-2">
                 <span class="iconify" data-icon="logos:facebook" data-inline="false" data-width="48" data-height="48"></span>
             </a>
-            <a href="#" class="text-decoration-none">
+            <a href="#" class="text-decoration-none p-2">
                 <span class="iconify" data-icon="cib:instagram" data-inline="false" data-width="48" data-height="48"></span>
             </a>
-            <a href="#" class="text-decoration-none">
+            <a href="#" class="text-decoration-none p-2">
                 <span class="iconify" data-icon="logos:youtube" data-inline="false" data-width="48" data-height="48"></span>
             </a>
-            <a href="#" class="text-decoration-none">
+            <a href="#" class="text-decoration-none p-2">
                 <span class="iconify" data-icon="logos:whatsapp" data-inline="false" data-width="48" data-height="48"></span>
             </a>
         </div>
@@ -46,18 +46,20 @@
     <!--Fin Nav-->
 
     <!--Inicio Main-->
-    <div class="container-fluid d-flex justify-content-center m-2 p-2">
-        <div class="">
-            <div class="card" style="width: 18rem;">
-                <img src="images/ben.png" class="card-img-top p-2" alt="img-bencat">
-                <div class="card-body text-center">
-                    <h5 class="card-title">¿Adivina adivinador?</h5>
-                    <p class="card-text">Intenta adivinar un número entre 1 y 11. Solo tienes 4 intentos posibles.</p>
-                    <p>¿Cuál es tu nombre? <input type="text" id="nombre"></p>
-                    <button href="#" class="btn btn-primary" onclick="jugar_ahora()">Jugar</button>
-                </div>
-                <div class="text-center">
-                    <p id="rdo"></p>
+    <div class="main-window">
+        <div class="d-flex justify-content-center m-2 p-2">
+            <div class="">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/ben.png" class="card-img-top p-2" alt="img-bencat">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">¿Adivina adivinador?</h5>
+                        <p class="card-text">Intenta adivinar un número entre 1 y 11. Solo tienes 4 intentos posibles.</p>
+                        <p>¿Cuál es tu nombre? <input type="text" id="nombre"></p>
+                        <button href="#" class="btn btn-primary" onclick="jugar_ahora()">Jugar</button>
+                    </div>
+                    <div class="text-center">
+                        <p id="rdo"></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -65,17 +67,17 @@
     <!--Fin Main-->
 
     <!--Inicio Footer-->
-    <footer class="footer py-2 align-items-end">
-        <div class="container">
-            <div class="d-flex flex-row-reverse">
+    <footer class="footer py-2">
+        <div class="d-flex justify-content-around">
+            <div class="d-flex">
                 <div class="p-2">
-                    <a href="#">Politicas de privacidad</a>
+                    <a href="#" class="text-body font-weight-bolder">Politicas de privacidad</a>
                 </div>
                 <div class="p-2">
-                    <a href="#">Términos y condiciones</a>
+                    <a href="#" class="text-body font-weight-bolder">Términos y condiciones</a>
                 </div>
                 <div class="p-2">
-                    <a href="#">Contacto</a>
+                    <a href="#" class="text-body font-weight-bolder">Contacto</a>
                 </div>
             </div>
         </div>
