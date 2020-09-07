@@ -1,0 +1,23 @@
+:root{
+    --gray: rgba(120, 120, 120, .5);
+}
+
+.background-main{
+    background-image: url(../images/background.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+body{
+    font-family: 'Grandstander', cursive;
+}
+
+nav{
+    background-color: var(--gray);
+}
+
+footer{
+    background-color: var(--gray);
+    width: 100%;
+    align-self: flex-end;
+}
